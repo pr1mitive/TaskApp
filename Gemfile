@@ -7,6 +7,8 @@ ruby '2.4.5'
 gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3','~>1.3.6', group: [:development, :test]
+
+gem 'pg', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -64,5 +66,3 @@ gem 'jquery-rails'
 gem 'autoprefixer-rails', '9.5.0'
 
 gem "font-awesome-sass"
-
-gem 'pg', group: :production
