@@ -28,7 +28,7 @@ body {
   .submitBtn {
     background: #29b744;
     color: #fff;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     transition: opacity .5s;
     &:hover {
