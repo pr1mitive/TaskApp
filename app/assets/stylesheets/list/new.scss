@@ -1,0 +1,19 @@
+.listnewPage {
+  .new_list {
+    max-width: 400px;
+    margin: 100px auto 0;
+    .error_title {
+      color: #e40909;
+    }
+  }
+  .submitBtn {
+    background: #29b744;
+    color: #fff;
+    width: 400px;
+    padding: 10px;
+    transition: opacity .5s;
+    &:hover {
+      opacity: .6;
+    }
+  }
+}
